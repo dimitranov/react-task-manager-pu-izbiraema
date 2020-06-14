@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.main-container {
+	padding: 0 30px;
+}
+
+.card {
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid rosybrown;
+	border-radius: 5px;
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 3px #dedede;
+}
+
+.card span {
+	font-weight: 600;
+}
+
+.card button {
+	border: 0px solid brown;
+	border-radius: 4px;
+	width: 100px;
+	height: 30px;
+	margin-right: 10px;
+	background: rosybrown;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.card p:first-child {
+	font-size: 25px;
+	margin: 5px 0;
+}
+
+.form-wrapper {
+	display: flex;
+	margin-top: 150px;
+}
+
+.form-container {
+	margin: 0 auto;
+}
+
+.form-container h1 {
+	color: #3a2d35;
+	text-shadow: 0px 1px 4px #755d6c7a;
+}
+
+.form-container label {
+	display: block;
+	color: #755d6cb5;
+	font-size: 16px;
+}
+
+.form-container input,
+.form-container select {
+	margin: 10px 0;
+	font-size: 20px;
+	padding: 5px;
+	border: 1px solid #755d6c;
+	border-radius: 4px;
+}
+
+.form-container button {
+	width: 240px;
+	margin: 10px 0;
+	font-size: 20px;
+	padding: 5px;
+	border: 1px solid #755d6c;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: #755d6c;
+	color: white;
+	cursor: pointer;
+}
+
+.form-container p {
+	text-align: center;
+}
+
+.form-container a {
+	text-decoration: none;
+	font-weight: 700;
+	color: #755d6c;
+}
+
+header {
+	height: 70px;
+}
+
+header ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+header li {
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: 700;
+}
+
+header li a {
+	text-decoration: none;
+	color: #755d6c;
+}
+
+header li a :hover {
+	color: #a08194;
+}
+
+header li:last-child {
+	float: right;
+}
+
+header button {
+	display: inline-block;
+	padding: 5px 12px;
+	border: 1px solid #755d6c;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: #755d6c;
+	color: white;
+	cursor: pointer;
+}
+
+header button:hover {
+	background-color: #a08194;
+}
+
+.task-container h1,
+.users-container h1 {
+	padding-left: 10px;
+}
+
+.card .unstyled-link a {
+	text-decoration: none;
+	color: #755d6c;
+}
+
+.user-card {
+	vertical-align: top;
+}
+
+.users-container .admin-p {
+	color: green;
+}
+
+.edit-form-container button {
+	width: 180px;
+	margin-right: 50px;
+}
+
+.edit-form-container .delete-btn {
+	background-color: #f1f1f1;
+	color: #755d6c;
+}
+
+.edit-form-container {
+	border: 1px solid #bea1b3;
+	padding: 30px;
+}
+
+.edit-form-container input:not([type="checkbox"]) {
+	width: 400px;
+	;
+}
+
+.edit-form-wrapper {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.edit-form-container .input-inline {
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
